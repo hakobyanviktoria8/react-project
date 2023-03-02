@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router";
+import { RockPaperScissors } from "./RockPaperScissors";
 import Tenzies from "./Tenzies";
 
 function Game() {
@@ -9,6 +10,7 @@ function Game() {
     <div>
       {!params && <h2>Select your preferred Game</h2>}
       {params === "tenzies" && <Tenzies />}
+      {params === "rock-paper-scissors" && <RockPaperScissors />}
     </div>
   );
 }

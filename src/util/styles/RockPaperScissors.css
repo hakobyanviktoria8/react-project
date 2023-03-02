@@ -1,0 +1,65 @@
+.RockPaperScissors {
+  margin: 30px auto;
+  background-color: #e2e2e2;
+  padding: 20px;
+  position: relative;
+}
+.RockPaperScissors h1,
+.RockPaperScissors .col h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.RockPaperScissors .wrapper {
+  display: flex;
+}
+.RockPaperScissors .row {
+  display: flex;
+  width: 90%;
+}
+.RockPaperScissors table {
+  width: 10%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+.RockPaperScissors table td {
+  padding: 5px;
+  border-top: 1px solid;
+  width: 50px;
+  text-align: center;
+}
+.RockPaperScissors .col {
+  border-right: 1px solid rgb(193, 193, 193);
+}
+.RockPaperScissors .row .imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RockPaperScissors .col img {
+  width: 120px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.RockPaperScissors .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RockPaperScissors .partCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RockPaperScissors .imgs img:hover {
+  transform: scale(1.02, 1.02);
+  box-shadow: 0 0 15px black;
+}
+.RockPaperScissors .col .partimg {
+  margin: 20% 4%;
+  width: 200px;
+  height: 200px;
+}
