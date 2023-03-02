@@ -1,7 +1,11 @@
 .User {
-    width: 300px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px #d2cece;
-    padding: 20px;
-    margin-top: 10px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.User > div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

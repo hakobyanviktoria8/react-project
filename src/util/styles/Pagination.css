@@ -1,20 +1,20 @@
 .pagination {
-    margin: 20px auto 0;
-    padding-bottom: 20px;
-    width: 50%;
-    text-align: center;
+  margin: 20px auto 0;
+  padding-bottom: 20px;
+  width: 50%;
+  text-align: center;
 }
 
 .pagination > button {
-    width: 30px;
-    height: 30px;
-    margin: 4px;
-    background: greenyellow;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+  background: greenyellow;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .pagination > .active {
-    background:  rgb(120 198 3);
+  background: rgb(120 198 3);
 }

@@ -1,14 +1,10 @@
-import React from 'react'
-import "./Button.css"
+import React from "react";
+import "./Button.css";
 
-export const Button = ({disabled=false, onClick, children}) => {
+export const Button = ({ disabled = false, onClick, children }) => {
   return (
-    <button 
-      disabled={disabled}
-      className='button'
-      onClick={onClick}
-    >
+    <button disabled={disabled} className="button" onClick={onClick}>
       {children}
     </button>
-  )
-}
+  );
+};

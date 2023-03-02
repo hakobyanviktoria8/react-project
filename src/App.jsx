@@ -22,8 +22,7 @@ function App() {
           <Route path="/users/:id" element={<User />} />
           <Route path="games" element={<Games />} />
           <Route path="games/:params" element={<Games />} />
-          <Route path="posts" element={<Posts />} />
-          <Route path="*" element={<Navigate to="/" replace />} />          
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>
     </DataContext.Provider>

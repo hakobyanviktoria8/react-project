@@ -1,49 +1,49 @@
 .postWrapper {
-    overflow: auto;
-    padding: 0 20px;   
+  overflow: auto;
+  padding: 0 20px;
 }
 
 .post {
-    border: 2px solid greenyellow;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  border: 2px solid greenyellow;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .postsForm {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .postsForm > input {
-    height: 32px;
-    padding: 5px;
-    margin-right: 10px;
-    width: 30%;
+  height: 32px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 30%;
 }
 
 .formWrapper {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .formWrapper > div > select {
-    margin: 10px;
-    width: 120px;
-    padding: 5px;
+  margin: 10px;
+  width: 120px;
+  padding: 5px;
 }
 
 .formSearch {
-    margin: 10px;
+  margin: 10px;
 }
 
 .formSearch > input {
-    width: 200px;
-    padding: 0 10px;
-    height: 32px;
+  width: 200px;
+  padding: 0 10px;
+  height: 32px;
 }

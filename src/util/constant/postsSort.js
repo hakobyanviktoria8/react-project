@@ -1,10 +1,10 @@
-export const sortOptions= [
-    {
-      value: "title",
-      title: "Title"
-    },
-    {
-      value: "body",
-      title: "Body"
-    },
-]
+export const sortOptions = [
+  {
+    value: "title",
+    title: "Title",
+  },
+  {
+    value: "body",
+    title: "Body",
+  },
+];

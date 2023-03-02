@@ -1,18 +1,18 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 export const useFetching = (callback) => {
-  const[loading, setLoading] = useState(false)
-  const[error, setError] = useState("")
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const fetching = async () => {
     try {
-        setLoading(true)
-        await callback()
+      setLoading(true);
+      await callback();
     } catch (error) {
-        setError(error.message)
+      setError(error.message);
     } finally {
-        setLoading(false)
+      setLoading(false);
     }
-  }
-  return [fetching, loading, error]
-}
+  };
+  return [fetching, loading, error];
+};
