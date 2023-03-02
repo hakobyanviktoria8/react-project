@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from "react";
 import { DataContext } from "../../App";
-import Layout from "../layout/Layout";
+import Layout from "./../../components/layout/Layout";
 import "./../../util/styles/Items.css";
 import Item from "./Item";
 import Search from "./Search";

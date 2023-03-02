@@ -7,7 +7,7 @@ function Game() {
 
   return (
     <div>
-      {!params && <h2>Select your prifer Game</h2>}
+      {!params && <h2>Select your preferred Game</h2>}
       {params === "tenzies" && <Tenzies />}
     </div>
   );

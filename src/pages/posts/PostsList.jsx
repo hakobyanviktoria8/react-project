@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../UI/button/Button";
+import { Button } from "./../../components/UI/button/Button";
 import styles from "./../../util/styles/Posts.module.css";
 
 export const PostsList = ({ posts, handleDelPost }) => {

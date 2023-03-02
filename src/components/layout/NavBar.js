@@ -6,8 +6,8 @@ function NavBar({ mode, toggleMode }) {
   return (
     <div className={mode ? "dark NavBar" : "NavBar"}>
       <Link to="/">Posts</Link>
-      <Link to="/games">Games</Link>
       <Link to="/users">Users</Link>
+      <Link to="/games">Games</Link>
       <button
         title="Dark mood"
         onClick={toggleMode}

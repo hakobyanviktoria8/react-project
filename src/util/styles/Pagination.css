@@ -1,6 +1,6 @@
 .pagination {
   margin: 20px auto 0;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   width: 50%;
   text-align: center;
 }
@@ -9,12 +9,12 @@
   width: 30px;
   height: 30px;
   margin: 4px;
-  background: greenyellow;
+  background: rgb(231, 231, 231);
   border: none;
   outline: none;
   cursor: pointer;
 }
 
 .pagination > .active {
-  background: rgb(120 198 3);
+  background: rgb(197, 197, 197);
 }

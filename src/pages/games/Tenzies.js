@@ -67,6 +67,11 @@ function Tenzies() {
         <Confetti width={window.innerWidth} height={window.innerHeight} />
       )}
       <h2>Tenzies game</h2>
+      <p>
+        This is a very interesting game. We choose a number and click on it,
+        each time we press the Roll button it generates new numbers, and we save
+        those that match our number until the end of the game.
+      </p>
       <div className="tenziesWrapper">
         <div className="tenziesPoints">
           {allPoints.map((item) => (

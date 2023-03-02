@@ -3,10 +3,10 @@ import { BrowserRouter } from "react-router-dom";
 import { Navigate, Route, Routes } from "react-router";
 import { useState, createContext } from "react";
 
-import Items from "./components/items/Items";
-import Games from "./components/games/Games";
-import { Posts } from "./components/posts/Posts";
-import { User } from "./components/items/User";
+import Items from "./pages/items/Items";
+import Games from "./pages/games/Games";
+import { Posts } from "./pages/posts/Posts";
+import { User } from "./pages/items/User";
 
 export const DataContext = createContext();
 

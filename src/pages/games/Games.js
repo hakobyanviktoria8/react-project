@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./../../util/styles/Games.css";
-import Layout from "../layout/Layout";
+import Layout from "../../components/layout/Layout";
 import Game from "./Game";
 import { linkData } from "../../util/constant/links";
 import NavLink from "./NavLink";
-import { Button } from "../UI/button/Button";
+import { Button } from "../../components/UI/button/Button";
 
 function Games() {
   const [active, setActive] = useState(null);

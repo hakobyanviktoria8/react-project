@@ -19,6 +19,7 @@
 .NavBar > button {
   width: 40px;
   height: 16px;
+  border-radius: 10px;
 }
 
 .dark {

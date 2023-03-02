@@ -1,11 +1,70 @@
 .User {
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  padding: 1rem;
+}
+.col {
+  width: 50%;
+}
+.col .avatar {
+  width: 50%;
+  border-radius: 50%;
+  margin: 5% 25%;
+}
+.col h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.col button {
+  margin: 0 15%;
+  padding: 0.5rem;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-size: 18px;
+}
+.col button:hover {
+  background: rgba(127, 114, 114, 0.45);
+}
+/*2 col*/
+.col-center {
+  width: 50%;
+}
+.col h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.col span {
+  font-size: 16px;
+}
+.col .data {
+  display: flex;
+  margin: 0.5rem 0;
+  line-height: 80%;
+  color: #7f7272;
+  align-items: center;
+}
+.col .data-img {
+  width: 50px;
+}
+.data-img img {
+  width: 30px;
+}
+.col .data p {
+  width: 80%;
+  margin: 0;
+  font-size: 16px;
+  word-break: break-word;
+}
+.data span:first-of-type {
+  margin-right: 1rem;
 }
 
-.User > div {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.col .data:last-child {
+  margin-top: 30px;
 }
