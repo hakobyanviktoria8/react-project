@@ -1,0 +1,35 @@
+.tenziesWrapper {
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+}
+
+.tenziesPoints {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tenziesPoints > p {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: #eaeaea;
+}
+
+.tenziesWrapper > button {
+    margin: 20px auto;
+    display: block;
+    width: 100px;
+    height: 36px;
+}
+
+.tenziesPoints > .isChoosen { 
+    background: rgb(145, 255, 125);
+}

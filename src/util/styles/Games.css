@@ -1,0 +1,159 @@
+.Games {
+    display: flex;
+}
+
+.Games > .leftSide {
+    width: 18%;
+    padding: 20px;
+    background: #f6f6f6;
+    height: calc(100vh - 160px);
+}
+
+.Games > .leftSide > button {
+    float: right;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.Games > .leftSide > a {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Games > .leftSide > .active {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.Games > .rightSide {
+    width: 80%;
+    padding: 20px;
+}
+.countWrapper {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    position: relative;
+    height: 150px;
+    align-items: flex-end;
+}
+
+.countWrapper > button {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #d2cece;
+}
+
+.countWrapper > .count {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #d2cece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    background: gray;
+    color: white;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+}
+
+/* addItem */
+.addItem {
+    margin: 20px auto;
+}
+
+.addItem > button, .Games .rightSide .btnToggle {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+
+.addItem > div {
+    border: 1px solid gainsboro;
+    width: 200px;
+    height: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.addItem > div > input,
+.addItem > div > button {
+    width: 20px;
+    height: 20px;
+}
+
+/* box data */
+.boxWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.boxWrapper > div {
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.findId {
+    display: flex;
+    justify-content: center;
+}
+
+.findId button {
+    width: 50px;
+    height: 50px;
+    margin: 20px 5px;   
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findId .active{
+    background: rgb(198, 198, 198);
+}
+
+/* TextEditor */
+.TextEditor > button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.TextEditor textarea{
+    margin: 10px;
+    width: 94%;
+    height: 100px;
+    padding: 10px;
+}
+
+.TextEditor > .bold {
+    font-weight: 600;
+}
+
+.TextEditor > .italic {
+   font-style: italic;
+}

@@ -1,0 +1,4 @@
+.LayoutChild {
+    min-height: calc(100vh - 160px);
+    box-shadow: 0 0 10px #d2cece;
+}
